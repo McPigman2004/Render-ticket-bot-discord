@@ -295,7 +295,7 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
             <div class="topic">
                 ${data.topic ? `<span>${data.topic}</span> <span>•</span>` : ''} 
-                <span>Xuất ngày: ${data.exportedAt || 'N/A'}</span>
+                <span>Đóng vào: ${data.exportedAt || 'N/A'}</span>
                 ${data.closeReason ? `<span class="close-reason">Đã đóng: ${data.closeReason}</span>` : ''}
             </div>
         </div>
